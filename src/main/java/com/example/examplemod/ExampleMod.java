@@ -27,15 +27,15 @@ public class ExampleMod
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
-        logger.info("pre");
+        proxy.preInit(event);
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        logger.info("init");
+        proxy.init(event);
     }
     @EventHandler
     public void postInit(FMLPostInitializationEvent event) {
-        logger.info("post");
+        proxy.postInit(event);
     }
 }
