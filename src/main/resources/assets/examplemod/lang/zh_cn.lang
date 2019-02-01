@@ -1,3 +1,5 @@
 item.examplemod:rubber.name=橡胶
 item.examplemod:rubber.1.desc=这是一个橡胶
 item.examplemod:rubber.shift.1.desc=§b这是§r一个橡胶
+example.info.create=成功制造橡胶
+example.info.undate=x=%d,y=%d,z=%d
